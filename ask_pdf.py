@@ -81,3 +81,4 @@ def gpt_extract_info(pdf_path):
     response = get_chat_response(extract_text(pdf_path) + '\n\n'+user_question)
     return response
 
+
